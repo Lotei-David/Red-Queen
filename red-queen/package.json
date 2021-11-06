@@ -1,0 +1,33 @@
+{
+    "name": "red-queen",
+    "displayName": "Red Queen",
+    "description": "This is a beautiful red theme, created by (me) Lotei David!",
+    "version": "0.0.1",
+    "publisher": "LoteiDavid",
+    "icon": "redqueen.png",
+    "keywords": [
+        "theme",
+        "red theme",
+        "queen",
+        "red queen",
+        "David",
+        "Lotei David",
+        "Lotei David dark",
+        "red"
+    ],
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Red Queen",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Red Queen-color-theme.json"
+            }
+        ]
+    }
+}
